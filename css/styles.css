@@ -5,7 +5,7 @@ font-family: 'Roboto', sans-serif;
 a {
     text-decoration: none;
 }
-.navigation {
+.navigation a {
 /* font-family: 'Roboto', sans-serif; */
 font-style: normal;
 font-weight: 500;
@@ -15,15 +15,47 @@ letter-spacing: 0.02em;
 
 color: #212121;
 }
+.navigation a:hover {
+    color: #2196F3;
+}
 .studiologo {
     font-family: Raleway;
 font-style: normal;
 font-weight: bold;
 font-size: 26px;
 line-height: 31px;
-/* identical to box height */
-
 letter-spacing: 0.03em;
+color: #000000;
 
-color: #2196F3;
+}
+.web {
+    color: #2196F3; 
+}
+.top-contact a {
+    font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 16px;
+letter-spacing: 0.02em;
+
+color: #757575;
+
+}
+
+.menu_button {
+width: 128px;
+height: 38px;
+background: #F5F4FA;
+border-radius: 4px;
+
+font-weight: 500;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.03em;
+color: #212121;
+}
+.menu_button:hover {
+    background: #2196F3;
+    color: #ffffff;
 }
