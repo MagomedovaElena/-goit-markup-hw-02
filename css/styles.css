@@ -1,6 +1,7 @@
 body {
     
 font-family: 'Roboto', sans-serif;
+color: #212121;
 }
 a {
     text-decoration: none;
@@ -13,21 +14,18 @@ ul {
 }
 /* header */
 .navigation a {
-font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 
-color: #212121;
 }
 .navigation a:hover {
     color: #2196F3;
 }
 .studiologo {
     font-family: Raleway;
-font-style: normal;
-font-weight: bold;
+font-weight: 700;
 font-size: 26px;
 line-height: 1.2;
 letter-spacing: 0.03em;
@@ -36,8 +34,7 @@ color: #000000;
 }
 .studiologo-foot {
     font-family: Raleway;
-font-style: normal;
-font-weight: bold;
+font-weight: 700;
 font-size: 26px;
 line-height: 1.2;
 letter-spacing: 0.03em;
@@ -47,12 +44,10 @@ color: #FFFFFF;
     color: #2196F3; 
 }
 .top-contact a {
-    font-style: normal;
 font-weight: 500;
 font-size: 14px;
 line-height: 1.2;
 letter-spacing: 0.02em;
-
 color: #757575;
 
 }
@@ -94,6 +89,7 @@ line-height: 1.9;
 text-align: center;
 letter-spacing: 0.06em;
 color: #FFFFFF;
+cursor: pointer;
 }
 .zakaz:hover {
     background: #188CE8;
@@ -106,26 +102,17 @@ line-height: 1,2;
 text-align: center;
 letter-spacing: 0.03em;
 
-color: #212121;
 }
 .team h3 {
     font-weight: 500;
 font-size: 16px;
 line-height: 1,2;
-/* identical to box height */
-
 letter-spacing: 0.03em;
-
-color: #212121;
 }
 .team p {
-    font-weight: 400;
 font-size: 16px;
 line-height: 1,2;
-/* identical to box height */
-
 letter-spacing: 0.03em;
-
 color: #757575;
 }
 
@@ -141,7 +128,7 @@ font-size: 16px;
 line-height: 1.6;
 text-align: center;
 letter-spacing: 0.03em;
-color: #212121;
+cursor: pointer;
 }
 .menu_button:hover {
     background: #2196F3;
@@ -152,11 +139,9 @@ color: #212121;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
-    
-    color: #212121;
+  
 }
 .menu-img p {
-    font-weight: 400;
 font-size: 16px;
 line-height: 1.9;
 letter-spacing: 0.03em;
@@ -164,16 +149,13 @@ color: #757575;
 }
 /* footer */
 .footer {
-    position: absolute;
+
 width: 1600px;
 height: 252px;
-left: 0px;
 background: #2F303A
 }
 .contact-footer a {
-    font-family: Roboto;
 font-style: normal;
-font-weight: normal;
 font-size: 14px;
 line-height: 1.7;
 letter-spacing: 0.03em;
@@ -181,9 +163,6 @@ color: rgba(255, 255, 255, 0.6);
 
 }
 .adress a {
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
     font-size: 14px;
     line-height: 1.7;
     letter-spacing: 0.03em;
