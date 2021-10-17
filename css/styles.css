@@ -23,6 +23,9 @@ letter-spacing: 0.02em;
 .navigation a:hover {
     color: #2196F3;
 }
+.navigation a:active {
+    color: #2196F3;
+}
 .studiologo {
     font-family: Raleway;
 font-weight: 700;
@@ -76,13 +79,13 @@ color: #FFFFFF;
 }
 .zakaz {
 position: absolute;
-width: 200px;
-height: 50px;
+padding: 10px 32px;
 left: 700px;
 top: 430px;
 background: #2196F3;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
+font-family: inherit;
 font-weight: 700;
 font-size: 16px;
 line-height: 1.9;
@@ -95,10 +98,24 @@ cursor: pointer;
     background: #188CE8;
 
 }
+.description h3 {
+font-weight: 700;
+font-size: 14px;
+line-height: 1.2;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+}
+.description p {
+    font-size: 14px;
+    line-height: 1.7;
+    letter-spacing: 0.03em;    
+    color: #757575;
+    
+}
 .zanytie, .komanda {
     font-weight: 700;
 font-size: 36px;
-line-height: 1,2;
+line-height: 1.2;
 text-align: center;
 letter-spacing: 0.03em;
 
@@ -106,23 +123,23 @@ letter-spacing: 0.03em;
 .team h3 {
     font-weight: 500;
 font-size: 16px;
-line-height: 1,2;
+line-height: 1.2;
 letter-spacing: 0.03em;
 }
 .team p {
 font-size: 16px;
-line-height: 1,2;
+line-height: 1.2;
 letter-spacing: 0.03em;
 color: #757575;
 }
 
 /* portfolio */
 .menu_button {
-width: 128px;
-height: 38px;
+padding: 6px 22px;    
 background: #F5F4FA;
+border: none;
 border-radius: 4px;
-
+font-family: inherit;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.6;
